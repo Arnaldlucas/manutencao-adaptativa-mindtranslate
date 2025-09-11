@@ -1,6 +1,6 @@
 name: "Relatar Bug"
 description: "Use este formulário para relatar um problema encontrado."
-title: "[BUG] Descreva brevemente o problema"
+title: "Descreva brevemente o problema"
 labels: [bug]
 body:
   - type: markdown
@@ -13,8 +13,8 @@ body:
     id: versao
     attributes:
       label: "Versão"
-      description: "Resultado do comando `node -v`. Verifique se está reproduzindo o problema em uma versão suportada do Node.js."
-      placeholder: "Exemplo: v20.11.0"
+      description: "Versão do Sistema"
+      placeholder: "Exemplo: v1.0.0"
     validations:
       required: true
 
@@ -23,7 +23,7 @@ body:
     attributes:
       label: "Plataforma"
       description: "UNIX: saída de `uname -a` | Windows: saída de `($([Environment]::OSVersion.VersionString) $(('x86','x64')[[Environment]::Is64BitOperatingSystem]))` no PowerShell."
-      placeholder: "Exemplo: Linux ubuntu 5.15.0-97-generic x86_64"
+      placeholder: "Cole aqui a saída do comando"
     validations:
       required: true
 
@@ -38,7 +38,7 @@ body:
     id: reproducao
     attributes:
       label: "Quais passos reproduzem o bug?"
-      description: "Insira detalhes claros sobre como reproduzir o erro. Preferencialmente um snippet de código mínimo que rode diretamente no Node.js (sem dependências externas)."
+      description: "Insira detalhes claros sobre como reproduzir o erro. Se possível, forneça código e texto em vez de prints."
       placeholder: |
         Passo 1: ...
         Passo 2: ...
