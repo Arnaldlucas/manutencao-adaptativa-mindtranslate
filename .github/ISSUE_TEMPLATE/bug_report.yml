@@ -90,7 +90,7 @@ body:
         - Performance
         - Segurança
     validations:
-      required: false
+      required: true
 
   - type: textarea
     id: informacoes_adicionais
