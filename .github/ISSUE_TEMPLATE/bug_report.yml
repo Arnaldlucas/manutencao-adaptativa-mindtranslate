@@ -37,7 +37,7 @@ body:
   - type: textarea
     id: reproducao
     attributes:
-      label: "Quais passos reproduzem o bug?"
+      label: "Evidências: Quais passos reproduzem o bug?"
       description: "Insira detalhes claros sobre como reproduzir o erro. Se possível, forneça código e texto em vez de prints."
       placeholder: |
         Passo 1: ...
@@ -75,6 +75,22 @@ body:
       placeholder: "Exemplo: O comando retorna `undefined`."
     validations:
       required: true
+
+  - type: dropdown
+    id: classificacao_bug
+    attributes:
+      label: Classificação do Bug
+      description: Selecione a categoria que melhor descreve o bug.
+      multiple: true
+      options:
+        - Sintaxe
+        - Lógica
+        - Runtime
+        - Concorrência
+        - Performance
+        - Segurança
+    validations:
+      required: false
 
   - type: textarea
     id: informacoes_adicionais
