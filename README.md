@@ -27,12 +27,12 @@ Toda a documentação formal de apresentação do sistema, incluindo arquitetura
 
 Foram identificados, documentados e corrigidos 3 bugs distintos, cada um representando uma categoria de falha diferente, conforme solicitado no plano de trabalho. O ciclo de vida de cada bug, desde o relato até a correção, pode ser rastreado através dos links abaixo.
 
-| Bug ID | Descrição Resumida | Classificação | Link da Issue (Relato)  | Link do Pull Request (Correção)  |
-| :--- | :--- | :--- | :--- | :--- |
-| **#1** | Contagem de quizzes no Dashboard não atualiza em tempo real | `Lógica`  | [Issue #1](LINK_PARA_SUA_ISSUE_1) | [PR #1](LINK_PARA_SEU_PR_1) |
-| **#2** | Página de perfil quebra se o documento do usuário não existir | `Runtime`  | [Issue #2](LINK_PARA_SUA_ISSUE_2) | [PR #2](LINK_PARA_SEU_PR_2) |
-| **#3** | Página de termos busca todos os documentos de uma só vez | `Performance` | [Issue #3](https://github.com/Arnaldlucas/Mindtranslate/pull/2) | [PR #3](https://github.com/thevictorgabriel/issue-Mindtranslate/issues/3) |
-| **#2** | Página de perfil quebra se o documento do usuário não existir | `Runtime`  | [Issue #2](LINK_PARA_SUA_ISSUE_2) | [PR #2](LINK_PARA_SEU_PR_2) |
+| Bug ID | Descrição Resumida | Classificação | Link da Issue (Relato) |
+| :--- | :--- | :--- | :--- | 
+| **#3** | Página de Termos busca todos os documentos de uma só vez | `Performance`  | [Issue #3](https://github.com/thevictorgabriel/issue-Mindtranslate/issues/3) |
+| **#4** | Mensagem de boas-vindas mostra email em vez do nome | `Lógica`  | [Issue #4](https://github.com/thevictorgabriel/issue-Mindtranslate/issues/4) |
+| **#5** | Recarregar a página em rotas internas causa erro 404 | `Lógica` | [Issue #5](https://github.com/thevictorgabriel/issue-Mindtranslate/issues/5)  |
+| **#6** | Campo de confirmação de senha ausente no Register.jsx | `Lógica`  | [Issue #6](https://github.com/thevictorgabriel/issue-Mindtranslate/issues/6) |
 
 
 ## 4. Estrutura do Repositório
