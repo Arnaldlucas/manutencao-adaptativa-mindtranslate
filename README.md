@@ -31,9 +31,9 @@ Foram identificados, documentados e corrigidos 3 bugs distintos, cada um represe
 | :--- | :--- | :--- | :--- | :--- |
 | **#1** | Contagem de quizzes no Dashboard não atualiza em tempo real | `Lógica`  | [Issue #1](LINK_PARA_SUA_ISSUE_1) | [PR #1](LINK_PARA_SEU_PR_1) |
 | **#2** | Página de perfil quebra se o documento do usuário não existir | `Runtime`  | [Issue #2](LINK_PARA_SUA_ISSUE_2) | [PR #2](LINK_PARA_SEU_PR_2) |
-| **#3** | Página de termos busca todos os documentos de uma só vez | `Performance` | [Issue #3](LINK_PARA_SUA_ISSUE_3) | [PR #3](LINK_PARA_SEU_PR_3) |
+| **#3** | Página de termos busca todos os documentos de uma só vez | `Performance` | [Issue #3](https://github.com/Arnaldlucas/Mindtranslate/pull/2) | [PR #3](https://github.com/thevictorgabriel/issue-Mindtranslate/issues/3) |
 | **#2** | Página de perfil quebra se o documento do usuário não existir | `Runtime`  | [Issue #2](LINK_PARA_SUA_ISSUE_2) | [PR #2](LINK_PARA_SEU_PR_2) |
-| **#3** | Página de termos busca todos os documentos de uma só vez | `Performance` | [Issue #3]([LINK_PARA_SUA_ISSUE_3](https://github.com/thevictorgabriel/issue-Mindtranslate/issues/3)) | [PR #3]([LINK_PARA_SEU_PR_3](https://github.com/Arnaldlucas/Mindtranslate/pull/2)) |
+
 
 ## 4. Estrutura do Repositório
 
