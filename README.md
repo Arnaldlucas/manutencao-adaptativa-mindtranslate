@@ -5,6 +5,10 @@
 ![Universidade](https://img.shields.io/badge/Universidade-UFAM%20ICET-lightgrey)
 
 ---
+##MINDTRANSLATE
+
+<img width="1280" height="719" alt="image" src="https://github.com/user-attachments/assets/e032db69-ed3c-44bb-9a59-71fd9bde32d5" />
+
 
 ## 1. Contexto do Trabalho
 
