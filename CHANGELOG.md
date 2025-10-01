@@ -14,6 +14,8 @@ Fixed: Para correção de bugs.
 
 Removed: Para funcionalidades que foram removidas.
 
+## [Unreleased]
+
 ## [1.1.0] - 2025-10-01
 
 ### Added
