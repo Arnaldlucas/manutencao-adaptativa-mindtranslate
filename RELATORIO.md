@@ -2,7 +2,7 @@
 
 **Disciplina:** Manutenção e Integração de Software
 **Semestre:** 2025-2
-**Equipe:** [Liste os nomes dos membros da sua equipe aqui]
+**Equipe:** Arnald
 
 ---
 
