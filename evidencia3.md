@@ -62,7 +62,7 @@ saida no terminal
 
 ## Aplicaçao rodando normalmente apos a atualizaçao
 
-<img width="882" height="197" alt="image" src="https://github.com/user-attachments/assets/39ec1b76-f742-4da7-9743-0356ad742422" />
+<img width="1920" height="982" alt="image" src="https://github.com/user-attachments/assets/307635e6-c76f-427e-8f62-1739686135a5" />
 
 **Link para o Pull Request da Adaptação:**
 
