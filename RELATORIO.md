@@ -32,6 +32,16 @@ A seguir estão detalhadas as estratégias de manutenção que foram implementad
 
 ---
 
+### ✅ Estratégia 3: Atualização de Dependências (React 19.1.0)
+
+**Problema Adaptativo:** O projeto utilizava versões antigas e inconsistentes do React (react e react-dom em 19.0.0), o que poderia gerar incompatibilidades e impedir acesso a novos recursos.
+
+**Adaptação Implementada:** As dependências foram atualizadas para o React 19.1.0 (incluindo react-dom e pacotes de tipagem), garantindo estabilidade, segurança e suporte às funcionalidades mais recentes do ecossistema.
+
+* **Documento de Evidência:** **[`evidencia3.md`](./evidencia3.md)**
+
+---
+
 ## 3. Conclusão final
 
 A realização deste trabalho prático de manutenção adaptativa no projeto MindTranslate permitiu consolidar a importância de desenvolver sistemas com foco na evolutibilidade. A implementação do consentimento de Termos de Uso (LGPD) e a transformação da aplicação em um Progressive Web App (PWA) foram exemplos concretos de como um software precisa se ajustar a fatores externos, sejam eles regulatórios ou tecnológicos. Conclui-se que o sucesso dessas adaptações está diretamente ligado não apenas à implementação do código, mas também à utilização de uma arquitetura modular e de um processo de desenvolvimento estruturado, com versionamento e documentação, que garantem a integridade do sistema durante seu ciclo de vida.
