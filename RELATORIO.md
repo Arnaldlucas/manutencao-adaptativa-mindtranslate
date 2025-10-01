@@ -8,7 +8,7 @@
 
 ## 1. Introdução
 
-Este relatório sintetiza o trabalho prático de **Manutenção Adaptativa** realizado no projeto MindTranslate. O objetivo foi aplicar três estratégias distintas de adaptação para responder a mudanças no ambiente do software, conforme o plano de ação definido em `plano-estrategia.md`.
+Este relatório sintetiza o trabalho prático de **Manutenção Adaptativa** realizado no projeto MindTranslate. O objetivo foi aplicar duas estratégias distintas de adaptação para responder a mudanças no ambiente do software, conforme o plano de ação definido em `plano-estrategia.md`.
 
 ## 2. Síntese das Adaptações Realizadas
 
@@ -24,22 +24,14 @@ A seguir estão detalhadas as estratégias de manutenção que foram implementad
 
 ---
 
-### ⬜ Estratégia 2: Migração de API Externa
+### ✅ Estratégia 2: Adaptação a Novo Ambiente de Plataforma (PWA)
 
-* **Problema Adaptativo:** _(A ser preenchido com a descrição do problema)_
-* **Adaptação Implementada:** _(A ser preenchido com a descrição da solução)_
+* **Problema Adaptativo:** A aplicação operava exclusivamente como um site em uma aba de navegador, limitando a experiência do usuário por não ser instalável e não possuir capacidades offline.
+* **Adaptação Implementada:** O sistema foi transformado em um Progressive Web App (PWA). Através da configuração de um Web App Manifest e um Service Worker, a aplicação agora pode ser instalada em dispositivos desktop e móveis, proporcionando uma experiência de uso mais integrada e resiliente.
 * **Documento de Evidência:** **[`evidencia2.md`](./evidencia2.md)**
 
 ---
 
-### ⬜ Estratégia 3: Simulação de Mudança de Dependência
-
-* **Problema Adaptativo:** _(A ser preenchido com a descrição do problema)_
-* **Adaptação Implementada:** _(A ser preenchido com a descrição da solução)_
-* **Documento de Evidência:** **[`evidencia3.md`](./evidencia3.md)**
-
 ## 3. Reflexão Crítica
 
-_(Esta seção pode ser preenchida ao final de todas as tarefas)_
-
-A execução das tarefas de manutenção adaptativa demonstrou na prática a importância de construir um software flexível e desacoplado. A adaptação à LGPD, por exemplo, foi facilitada pela componentização do React. A atualização de dependências e a migração de APIs são processos contínuos na vida de um software, e ter um fluxo de trabalho bem definido com versionamento (Git) e testes (manuais, neste caso) é crucial para realizar essas mudanças com segurança e sem introduzir regressões.
+A realização deste trabalho prático de manutenção adaptativa no projeto MindTranslate permitiu consolidar a importância de desenvolver sistemas com foco na evolutibilidade. A implementação do consentimento de Termos de Uso (LGPD) e a transformação da aplicação em um Progressive Web App (PWA) foram exemplos concretos de como um software precisa se ajustar a fatores externos, sejam eles regulatórios ou tecnológicos. Conclui-se que o sucesso dessas adaptações está diretamente ligado não apenas à implementação do código, mas também à utilização de uma arquitetura modular e de um processo de desenvolvimento estruturado, com versionamento e documentação, que garantem a integridade do sistema durante seu ciclo de vida.
