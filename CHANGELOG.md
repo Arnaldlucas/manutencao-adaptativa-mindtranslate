@@ -2,7 +2,17 @@
 
 Todo o desenvolvimento notável neste projeto será documentado neste arquivo. O formato é baseado em [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
-## [Unreleased]
+
+O que é o "Keep a Changelog"?
+É simplesmente um padrão de escrita para organizar o histórico de mudanças de um projeto. A ideia principal é facilitar a vida de quem lê. Em vez de apenas listar o que foi feito, você agrupa as mudanças em categorias, como:
+
+Added: Para funcionalidades novas (como as que você implementou).
+
+Changed: Para mudanças em funcionalidades existentes.
+
+Fixed: Para correção de bugs.
+
+Removed: Para funcionalidades que foram removidas.
 
 ## [1.1.0] - 2025-10-01
 
