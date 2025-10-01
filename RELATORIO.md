@@ -32,6 +32,6 @@ A seguir estão detalhadas as estratégias de manutenção que foram implementad
 
 ---
 
-## 3. Reflexão Crítica
+## 3. Conclusão final
 
 A realização deste trabalho prático de manutenção adaptativa no projeto MindTranslate permitiu consolidar a importância de desenvolver sistemas com foco na evolutibilidade. A implementação do consentimento de Termos de Uso (LGPD) e a transformação da aplicação em um Progressive Web App (PWA) foram exemplos concretos de como um software precisa se ajustar a fatores externos, sejam eles regulatórios ou tecnológicos. Conclui-se que o sucesso dessas adaptações está diretamente ligado não apenas à implementação do código, mas também à utilização de uma arquitetura modular e de um processo de desenvolvimento estruturado, com versionamento e documentação, que garantem a integridade do sistema durante seu ciclo de vida.
