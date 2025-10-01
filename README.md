@@ -33,6 +33,7 @@ Todo o processo de manutenção foi documentado seguindo as melhores práticas, 
 | :--- | :--- | :--- |
 | **1. Adaptação a Regulamentação (LGPD)** | [`evidencia1.md`](./evidencia1.md) | ✅ Concluído |
 | **2. Adaptação a Novo Ambiente de Plataforma (PWA)** | [`evidencia2.md`](./evidencia2.md) | ✅ Concluído |
+| **3: Adaptação a Novo Ambiente de Plataforma (Atualização do React)** | [`evidencia3.md`](./evidencia3.md) | ✅ Concluído |
 
 O histórico detalhado de todas as mudanças de código realizadas durante este trabalho pode ser consultado no arquivo [`CHANGELOG.md`](./CHANGELOG.md). O relatório final, com uma síntese e reflexão crítica sobre o processo, está disponível em [`RELATORIO.md`](./RELATORIO.md).
 
