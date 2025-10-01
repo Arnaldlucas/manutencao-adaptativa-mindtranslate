@@ -14,15 +14,16 @@ O objetivo é demonstrar a capacidade de adaptar um sistema de software a mudan�
 
 ## 2. Sobre o Sistema "MindTranslate"
 
-O MindTranslate é uma plataforma web interativa (SPA) construída com React e Firebase. Seu propósito é auxiliar estudantes e desenvolvedores a dominar o vocabulário técnico da área de programação através de um glossário dinâmico, quizzes interativos e acompanhamento de progresso.
+O MindTranslate é um ecossistema de aprendizado online, desenvolvido como uma Single-Page Application (SPA) interativa com React e Firebase, com o propósito de solucionar um dos maiores desafios para novos desenvolvedores: a barreira do vocabulário técnico. A plataforma ataca diretamente a dificuldade de reter jargões e conceitos complexos, oferecendo uma ferramenta de capacitação que acelera a fluência técnica de estudantes e profissionais em início de carreira, tornando-os mais confiantes e eficazes em seus estudos e no ambiente de trabalho.
+
+O funcionamento da plataforma se baseia em um ciclo de aprendizado ativo e contínuo. Primeiramente, o usuário utiliza o glossário dinâmico para pesquisar e aprender termos técnicos, que são apresentados com definições claras e exemplos práticos. Em seguida, ele valida e solidifica seu conhecimento através de quizzes interativos gerados a partir do conteúdo estudado. Por fim, um painel de acompanhamento de progresso permite ao usuário visualizar suas estatísticas de desempenho, mantendo-o motivado e ciente de sua evolução ao longo da jornada de aprendizado.
 
 ## 3. Plano de Estratégia Adaptativa
 
 As três estratégias de manutenção adaptativa foram planejadas e documentadas no arquivo `plano-estrategia.md`, que serviu como guia para a execução deste trabalho. As estratégias abordadas foram:
 
-* **Migração de API Externa:** Substituição de uma API de autenticação simulada pelo SDK oficial do Firebase.
+* **Adaptação a Novo Ambiente de Plataforma (PWA):** Esta manutenção adapta o sistema para um novo ambiente de plataforma, transformando-o em um Progressive Web App (PWA) para atender às expectativas de uso modernas.
 * **Adaptação a Regulamentação (LGPD):** Inclusão de um campo de consentimento de Termos de Uso no formulário de registro.
-* **Atualização de Dependência:** Atualização do SDK do Firebase para a versão mais recente.
 
 ## 4. Evidências e Documentação
 
@@ -30,16 +31,14 @@ Todo o processo de manutenção foi documentado seguindo as melhores práticas, 
 
 | Estratégia Adaptativa | Documento de Evidência | Status |
 | :--- | :--- | :--- |
-| **1. Migração de API Externa** | [`evidencia1.md`](./evidencia1.md) | ✅ Concluído |
-| **2. Adaptação a Regulamentação (LGPD)** | [`evidencia2.md`](./evidencia2.md) | ✅ Concluído |
-| **3. Mudança de Dependência** | [`evidencia3.md`](./evidencia3.md) | ✅ Concluído |
+| **1. Adaptação a Regulamentação (LGPD)** | [`evidencia1.md`](./evidencia1.md) | ✅ Concluído |
+| **2. Adaptação a Novo Ambiente de Plataforma (PWA)** | [`evidencia2.md`](./evidencia2.md) | ✅ Concluído |
 
 O histórico detalhado de todas as mudanças de código realizadas durante este trabalho pode ser consultado no arquivo [`CHANGELOG.md`](./CHANGELOG.md). O relatório final, com uma síntese e reflexão crítica sobre o processo, está disponível em [`RELATORIO.md`](./RELATORIO.md).
 
 ## 5. Estrutura do Repositório
 
-* **/src**: Contém o código-fonte completo da aplicação React "MindTranslate" após as adaptações.
-* **/evidencias/prints**: Armazena os screenshots que servem como evidência visual (antes/depois).
+* **/codigoFonte**: Contém o código-fonte completo da aplicação React "MindTranslate" após as adaptações.
 * **plano-estrategia.md**: Documento que descreveu o plano para as 3 estratégias de manutenção.
 * **evidencia[1-3].md**: Relatórios detalhados para cada uma das estratégias implementadas.
 * **CHANGELOG.md**: Um registro cronológico de todas as mudanças significativas no código.
@@ -47,7 +46,5 @@ O histórico detalhado de todas as mudanças de código realizadas durante este 
 
 ## 6. Equipe
 
-* [Nome do Membro 1]
-* [Nome do Membro 2]
-* [Nome do Membro 3]
-* [Nome do Membro 4]
+* Arnald Bentes Lucas
+
