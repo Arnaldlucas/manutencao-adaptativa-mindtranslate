@@ -23,3 +23,18 @@ Para cumprir os objetivos do trabalho, executaremos as duas estratégias de manu
 * **Problema Adaptativo Enfrentado:** A aplicação funciona apenas como um site tradicional, restrito a uma aba de navegador e dependente de conexão com a internet. Isso limita a experiência do usuário, que não pode "instalar" a aplicação para acesso rápido ou utilizá-la em cenários offline.
 * **Adaptação Planejada:** Implementar a funcionalidade de Progressive Web App (PWA). Isso será feito através da adição de um Web App Manifest (para definir a identidade da aplicação) и de um Service Worker (para gerenciar o cache e permitir o funcionamento offline), tornando a aplicação instalável em desktops e dispositivos móveis.
 * **Impacto Esperado:** Melhorar significativamente a experiência e o engajamento do usuário, oferecendo acesso rápido por meio de um ícone na tela do dispositivo e garantindo resiliência e usabilidade mesmo em condições de rede instáveis.
+
+### Estratégia 3: Atualização do React para 19.1.0
+* **Problema Adaptativo Enfrentado:** O projeto utilizava versões desatualizadas e inconsistentes do React (react e react-dom na 19.0.0). Essa defasagem comprometia a compatibilidade com bibliotecas externas, limitava o acesso a novos recursos e aumentava riscos de falhas de segurança.
+
+* **Adaptação Planejada:** Realizar a atualização das dependências principais para a versão estável mais recente:
+react → ^19.1.0
+react-dom → ^19.1.0
+Atualizar também os pacotes de tipagem (@types/react e @types/react-dom).
+Rodar instalação e validar a execução da aplicação após a mudança.
+
+* **Impacto Esperado:**
+Garantir compatibilidade com as bibliotecas e ferramentas mais atuais do ecossistema React.
+Aumentar a estabilidade e segurança do sistema.
+Disponibilizar novas funcionalidades e otimizações da versão 19.1.0.
+Manter a aplicação em conformidade com boas práticas de manutenção adaptativa.
