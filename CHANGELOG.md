@@ -21,3 +21,5 @@ Removed: Para funcionalidades que foram removidas.
 ### Added
 - **Conformidade com LGPD:** Adicionado um `checkbox` de consentimento para os Termos de Uso na página de Registro, adaptando o sistema a requisitos legais simulados.
 - **Funcionalidade de Progressive Web App (PWA):** Implementada a capacidade da aplicação ser instalada em dispositivos desktop e móveis, adaptando-a para um novo ambiente de plataforma com suporte a acesso offline.
+-**Atualização do React para 19.1.0:** O projeto utilizava React em versão desatualizada, o que poderia causar incompatibilidades e limitar recursos. A atualização para o React 19.1.0 garantiu estabilidade, segurança e alinhamento com o ecossistema mais recente.
+
