@@ -4,7 +4,7 @@
 ![Disciplina](https://img.shields.io/badge/Disciplina-Manutenção%20e%20Integração%20de%20Software-blue)
 ![Universidade](https://img.shields.io/badge/Universidade-UFAM%20ICET-lightgrey)
 
-Este repositório documenta os trabalhos de **manutenções** aplicados ao sistema "MindTranslate", como parte da disciplina de Manutenção e Integração de Software do Instituto de Ciências Exatas e Tecnologia (ICET) da Universidade Federal do Amazonas (UFAM).
+Este repositório documenta os trabalhos de **manutenções** aplicadas ao sistema "MindTranslate", como parte da disciplina de Manutenção e Integração de Software do Instituto de Ciências Exatas e Tecnologia (ICET) da Universidade Federal do Amazonas (UFAM).
 
 ---
 
